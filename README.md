@@ -17,6 +17,14 @@ Or install it yourself as:
 
     $ gem install video-js-rails
 
+Add the resources to your application.js file
+    
+    //= require video-js
+
+Add the resources to your application.css file
+
+    *= require video-js
+
 ## Usage
 
 Add something like this to your view:
