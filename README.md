@@ -1,6 +1,7 @@
 # Video::Js::Rails
 
-TODO: Write a gem description
+Video.js is a JavaScript and CSS library that makes it easier to work with and build on HTML5 video
+
 
 ## Installation
 
@@ -18,7 +19,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add something like this to your view:
+
+  = video_player src: { mp4: '/videos/some.mp4' }, controls: true
 
 ## Contributing
 
