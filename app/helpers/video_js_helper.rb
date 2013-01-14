@@ -1,6 +1,6 @@
 module VideoJsHelper
   def video_player *args
-    options = { width: 640, height: 360, class: 'video-js vjs-default-skin' }.merge args.extract_options!
+    options = { width: 640, height: 360, class: 'video-js vjs-default-skin', :'data-setup' => '{}' }.merge args.extract_options!
     src = options.delete(:src) || {}
 
     content_tag :video, options do
