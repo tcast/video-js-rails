@@ -21,7 +21,7 @@ Or install it yourself as:
 
 Add something like this to your view:
 
-  = video_player src: { mp4: '/videos/some.mp4' }, controls: true
+    <%= video_player src: { mp4: '/videos/some.mp4' }, controls: true %>
 
 ## Contributing
 
