@@ -1,10 +1,6 @@
 require 'video-js-rails/version'
 
-module Video
-  module Js
-    module Rails
-      class Engine < ::Rails::Engine
-      end
-    end
+module VideoJsRails
+  class Engine < ::Rails::Engine
   end
 end

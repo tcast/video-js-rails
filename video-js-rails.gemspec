@@ -13,7 +13,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name          = "video-js-rails"
   gem.require_paths = ["lib"]
-  gem.version       = Video::Js::Rails::VERSION
+  gem.version       = VideoJsRails::VERSION
 
   gem.add_dependency "railties", "~> 3.1"
 end
