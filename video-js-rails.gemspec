@@ -15,4 +15,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = VideoJsRails::VERSION
 
+  gem.add_dependency "railties", "~> 4.0.0"
+
 end
